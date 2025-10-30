@@ -20,6 +20,7 @@ export default function RootLayout() {
         name="second" 
         options={{
           headerShown: false,
+          popToTopOnBlur: true,
           tabBarIcon: () => <AntDesign name="heart" size={24} color="lightblue" />,
         }}
       />
