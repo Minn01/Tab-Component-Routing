@@ -9,6 +9,11 @@ export default function Layout() {
             <Stack.Screen name='index' options={{
                 title: 'Second-Home'
             }} />
+
+            <Stack.Screen name='modal' options={{
+                title: 'Second-Modal',
+                presentation: 'modal'
+            }} />
         </Stack>
     )
   }
