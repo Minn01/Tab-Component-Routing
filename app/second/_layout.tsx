@@ -12,7 +12,9 @@ export default function Layout() {
 
             <Stack.Screen name='modal' options={{
                 title: 'Second-Modal',
-                presentation: 'modal'
+                presentation: 'modal',
+                animation: 'slide_from_bottom',
+                gestureEnabled: true,
             }} />
         </Stack>
     )
